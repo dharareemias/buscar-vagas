@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+}
+
+.header-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nome_site {
+    width: 60%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.button_navegacao {
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_navegacao button {
+    width: 100px;
+    height: 40%;
+    margin: 20px;
+}
+
+main{
+    background-color: green;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+}
+
+.caixa-pesquisa{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.vagas_de_trabalho{
+    background-color: white;
+    height: 400px;
+    width: 90%;
+    margin-top: 13px;
+    overflow-y: scroll; 
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.navegação-footer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.navegação-footer button{
+    height: 30px;
+    width: 60px;
+    margin: 10px;
+}    
